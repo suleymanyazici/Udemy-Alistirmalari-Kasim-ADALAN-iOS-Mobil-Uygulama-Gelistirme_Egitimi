@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     @IBAction func gelismisAlertAction(_ sender: Any) {
-        let alert = UIAlertController(title: "İçi Dolu Alert", message: "Doldur Şuaraları", preferredStyle: .alert)
+        let alert = UIAlertController(title: "İçi Dolu Alert", message: "Kullanıcı adı ve şifre giriniz", preferredStyle: .alert)
         alert.addTextField{ textField in  // text field ekledik
             textField.placeholder = "Kullanıcı Adı" // içerisinde yönlendirme yazısı ekledik
             textField.keyboardType = .emailAddress  // Klavye tipini değiştik

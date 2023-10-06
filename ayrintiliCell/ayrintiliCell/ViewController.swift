@@ -20,15 +20,15 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
 
-        let k1 = Kisiler(kisiAd: "Mahmut", kisiNo: 1923, kisiTel: 05555555555)
+        let k1 = Kisiler(kisiAd: "İsmail", kisiNo: 1923, kisiTel: 05555555555)
         let k2 = Kisiler(kisiAd: "Ahmet", kisiNo: 3823, kisiTel: 05553456666)
         let k3 = Kisiler(kisiAd: "Ela", kisiNo: 3423, kisiTel: 05555555575)
-        let k4 = Kisiler(kisiAd: "İsmet", kisiNo: 1235, kisiTel: 05555555513)
-        let k5 = Kisiler(kisiAd: "Zekeriya", kisiNo: 3241, kisiTel: 05555555575)
+        let k4 = Kisiler(kisiAd: "Mehmet", kisiNo: 1235, kisiTel: 05555555513)
+        let k5 = Kisiler(kisiAd: "Süleyman", kisiNo: 3241, kisiTel: 05555555575)
         let k6 = Kisiler(kisiAd: "Yahya", kisiNo: 6454, kisiTel: 05555555598)
-        let k7 = Kisiler(kisiAd: "Zülkif", kisiNo: 1234, kisiTel: 05555555526)
-        let k8 = Kisiler(kisiAd: "Memet", kisiNo: 6543, kisiTel: 05555555509)
-        let k9 = Kisiler(kisiAd: "Sami", kisiNo: 1209, kisiTel: 05555555521)
+        let k7 = Kisiler(kisiAd: "Kemal", kisiNo: 1234, kisiTel: 05555555526)
+        let k8 = Kisiler(kisiAd: "Hatice", kisiNo: 6543, kisiTel: 05555555509)
+        let k9 = Kisiler(kisiAd: "Beyza", kisiNo: 1209, kisiTel: 05555555521)
         let k10 = Kisiler(kisiAd: "Sülo", kisiNo: 9823, kisiTel: 05555555587)
 
         kisiler.append(k1)

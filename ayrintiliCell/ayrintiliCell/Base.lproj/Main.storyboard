@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22146" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -28,7 +28,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GeB-dq-c8M">
-                                                    <rect key="frame" x="170.66666666666666" y="27.333333333333336" width="52" height="25.333333333333336"/>
+                                                    <rect key="frame" x="30" y="27.333333333333336" width="52" height="25.333333333333336"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <color key="textColor" systemColor="systemPinkColor"/>
                                                     <nil key="highlightedColor"/>
@@ -36,18 +36,19 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUu-t3-EZW">
                                                     <rect key="frame" x="284.33333333333331" y="25" width="98.666666666666686" height="30"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="filled" title="Sepete At"/>
+                                                    <buttonConfiguration key="configuration" style="filled" title="Kontrol Et"/>
                                                     <connections>
                                                         <action selector="butonTiklandi:" destination="yqJ-tD-ZpT" eventType="touchUpInside" id="1zz-IS-27E"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="GeB-dq-c8M" firstAttribute="top" secondItem="LhK-9O-SiX" secondAttribute="topMargin" constant="16.329999999999998" id="6xX-ip-eKl"/>
                                                 <constraint firstItem="SUu-t3-EZW" firstAttribute="top" secondItem="LhK-9O-SiX" secondAttribute="top" constant="25" id="QY9-zH-6U7"/>
                                                 <constraint firstAttribute="trailing" secondItem="SUu-t3-EZW" secondAttribute="trailing" constant="10" id="Wn6-Fg-wlA"/>
                                                 <constraint firstAttribute="bottom" secondItem="SUu-t3-EZW" secondAttribute="bottom" constant="25" id="bau-hM-h3e"/>
-                                                <constraint firstItem="GeB-dq-c8M" firstAttribute="centerY" secondItem="LhK-9O-SiX" secondAttribute="centerY" id="gfN-gD-6Mg"/>
-                                                <constraint firstItem="GeB-dq-c8M" firstAttribute="centerX" secondItem="LhK-9O-SiX" secondAttribute="centerX" id="zPI-b3-tP8"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="GeB-dq-c8M" secondAttribute="bottom" constant="16.329999999999998" id="lv9-RF-Fd7"/>
+                                                <constraint firstItem="GeB-dq-c8M" firstAttribute="leading" secondItem="LhK-9O-SiX" secondAttribute="leadingMargin" constant="10" id="mOB-XY-oCD"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -80,7 +81,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

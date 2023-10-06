@@ -29,7 +29,7 @@ Swift ile ilgili temel konuları not alarak ve örneklerle bu işlemi pekiştirm
 
 ## Proje İçeriği 🎁
 
-Swift e  BTK Akademiden Atıl SAMANCIOGLU Hocanın Swift ile IOS Programlama dersleri ile başlangıç yaptım. Kendimi bu alanda dahada ileriye götürmek için Udemy den Kasım ADALAN hocanın iOS Mobil Uygulama Gelistirme Egitimi ile devam ettim. Atıl Hoca ile oluşturduğum temeller üzerine Kasım Hoca ile pekiştirerek ve üzerine kendimi dahada fazla geliştirerek ilerledim. Kasım hoca ile temel olarak aşağıdaki listede belirttiğim konular üzerine not alarak ve egzersizler yaparak bu ortaya koyduğum alıştırmalar bütünüyle bu projeyi oluşturdum.
+Swift e  BTK Akademiden Atıl SAMANCIOGLU Hocanın Swift ile IOS Programlama dersleri ile başlangıç yaptım. Kendimi bu alanda dahada ileriye götürmek için Udemy den Kasım ADALAN hocanın iOS Mobil Uygulama Gelistirme Egitimi ile devam ettim. Atıl Hoca ile oluşturduğum temeller üzerine Kasım Hoca ile pekiştirerek ve  kendimi daha fazla geliştirerek ilerledim. Kasım hoca ile temel olarak aşağıdaki listede belirttiğim konular üzerine not alarak ve egzersizler yaparak bu ortaya koyduğum alıştırmalar bütünüyle bu projeyi oluşturdum.
 
 - Images
 - Segues

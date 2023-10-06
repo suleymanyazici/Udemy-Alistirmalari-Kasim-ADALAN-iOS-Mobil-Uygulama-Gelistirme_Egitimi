@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "SwB-xb-694"; */
+"SwB-xb-694.text" = "MERHABA";
+
+/* Class = "UIButton"; configuration.title = "LOGİN"; ObjectID = "UKV-SG-3Os"; */
+"UKV-SG-3Os.configuration.title" = "GİRİŞ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "UKV-SG-3Os"; */
+"UKV-SG-3Os.normalTitle" = "Button";

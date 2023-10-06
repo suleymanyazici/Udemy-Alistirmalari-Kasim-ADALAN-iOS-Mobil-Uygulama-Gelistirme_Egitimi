@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076A497F2AA7454500F87259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A497E2AA7454500F87259 /* AppDelegate.swift */; };
+		076A49812AA7454500F87259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A49802AA7454500F87259 /* SceneDelegate.swift */; };
+		076A49832AA7454500F87259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A49822AA7454500F87259 /* ViewController.swift */; };
+		076A49862AA7454500F87259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076A49842AA7454500F87259 /* Main.storyboard */; };
+		076A49892AA7454500F87259 /* sqLite_uygulama.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 076A49872AA7454500F87259 /* sqLite_uygulama.xcdatamodeld */; };
+		076A498B2AA7454A00F87259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076A498A2AA7454A00F87259 /* Assets.xcassets */; };
+		076A498E2AA7454A00F87259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076A498C2AA7454A00F87259 /* LaunchScreen.storyboard */; };
+		076A49992AA7454B00F87259 /* sqLite_uygulamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A49982AA7454B00F87259 /* sqLite_uygulamaTests.swift */; };
+		076A49A32AA7454B00F87259 /* sqLite_uygulamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A49A22AA7454B00F87259 /* sqLite_uygulamaUITests.swift */; };
+		076A49A52AA7454B00F87259 /* sqLite_uygulamaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A49A42AA7454B00F87259 /* sqLite_uygulamaUITestsLaunchTests.swift */; };
+		076A49BF2AA77C9600F87259 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 076A49B42AA77C9500F87259 /* FMResultSet.m */; };
+		076A49C02AA77C9600F87259 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 076A49B72AA77C9600F87259 /* FMDatabaseQueue.m */; };
+		076A49C12AA77C9600F87259 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 076A49B92AA77C9600F87259 /* FMDatabaseAdditions.m */; };
+		076A49C22AA77C9600F87259 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 076A49BA2AA77C9600F87259 /* FMDatabase.m */; };
+		076A49C32AA77C9600F87259 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 076A49BB2AA77C9600F87259 /* FMDatabasePool.m */; };
+		076A49C52AA7814500F87259 /* persons.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 076A49C42AA7814500F87259 /* persons.sqlite */; };
+		076A49C72AA7C08B00F87259 /* persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A49C62AA7C08B00F87259 /* persons.swift */; };
+		076A49C92AA7C1B200F87259 /* Personsdao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A49C82AA7C1B200F87259 /* Personsdao.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		076A49952AA7454B00F87259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 076A49732AA7454500F87259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 076A497A2AA7454500F87259;
+			remoteInfo = "sqLite uygulama";
+		};
+		076A499F2AA7454B00F87259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 076A49732AA7454500F87259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 076A497A2AA7454500F87259;
+			remoteInfo = "sqLite uygulama";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076A497B2AA7454500F87259 /* sqLite uygulama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sqLite uygulama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		076A497E2AA7454500F87259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		076A49802AA7454500F87259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		076A49822AA7454500F87259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		076A49852AA7454500F87259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		076A49882AA7454500F87259 /* sqLite_uygulama.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sqLite_uygulama.xcdatamodel; sourceTree = "<group>"; };
+		076A498A2AA7454A00F87259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		076A498D2AA7454A00F87259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		076A498F2AA7454A00F87259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076A49942AA7454B00F87259 /* sqLite uygulamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sqLite uygulamaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		076A49982AA7454B00F87259 /* sqLite_uygulamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqLite_uygulamaTests.swift; sourceTree = "<group>"; };
+		076A499E2AA7454B00F87259 /* sqLite uygulamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sqLite uygulamaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		076A49A22AA7454B00F87259 /* sqLite_uygulamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqLite_uygulamaUITests.swift; sourceTree = "<group>"; };
+		076A49A42AA7454B00F87259 /* sqLite_uygulamaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqLite_uygulamaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		076A49B22AA77AE600F87259 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		076A49B32AA77C9500F87259 /* sqLite uygulama-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sqLite uygulama-Bridging-Header.h"; sourceTree = "<group>"; };
+		076A49B42AA77C9500F87259 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		076A49B52AA77C9600F87259 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		076A49B62AA77C9600F87259 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		076A49B72AA77C9600F87259 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		076A49B82AA77C9600F87259 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		076A49B92AA77C9600F87259 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		076A49BA2AA77C9600F87259 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		076A49BB2AA77C9600F87259 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		076A49BC2AA77C9600F87259 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		076A49BD2AA77C9600F87259 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		076A49BE2AA77C9600F87259 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		076A49C42AA7814500F87259 /* persons.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = persons.sqlite; sourceTree = "<group>"; };
+		076A49C62AA7C08B00F87259 /* persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persons.swift; sourceTree = "<group>"; };
+		076A49C82AA7C1B200F87259 /* Personsdao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personsdao.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		076A49782AA7454500F87259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076A49912AA7454B00F87259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076A499B2AA7454B00F87259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076A49722AA7454500F87259 = {
+			isa = PBXGroup;
+			children = (
+				076A497D2AA7454500F87259 /* sqLite uygulama */,
+				076A49972AA7454B00F87259 /* sqLite uygulamaTests */,
+				076A49A12AA7454B00F87259 /* sqLite uygulamaUITests */,
+				076A497C2AA7454500F87259 /* Products */,
+				076A49B12AA77AE600F87259 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		076A497C2AA7454500F87259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				076A497B2AA7454500F87259 /* sqLite uygulama.app */,
+				076A49942AA7454B00F87259 /* sqLite uygulamaTests.xctest */,
+				076A499E2AA7454B00F87259 /* sqLite uygulamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		076A497D2AA7454500F87259 /* sqLite uygulama */ = {
+			isa = PBXGroup;
+			children = (
+				076A497E2AA7454500F87259 /* AppDelegate.swift */,
+				076A49802AA7454500F87259 /* SceneDelegate.swift */,
+				076A49822AA7454500F87259 /* ViewController.swift */,
+				076A49C62AA7C08B00F87259 /* persons.swift */,
+				076A49842AA7454500F87259 /* Main.storyboard */,
+				076A498A2AA7454A00F87259 /* Assets.xcassets */,
+				076A498C2AA7454A00F87259 /* LaunchScreen.storyboard */,
+				076A498F2AA7454A00F87259 /* Info.plist */,
+				076A49872AA7454500F87259 /* sqLite_uygulama.xcdatamodeld */,
+				076A49C42AA7814500F87259 /* persons.sqlite */,
+				076A49BC2AA77C9600F87259 /* FMDatabase.h */,
+				076A49BA2AA77C9600F87259 /* FMDatabase.m */,
+				076A49B82AA77C9600F87259 /* FMDatabaseAdditions.h */,
+				076A49B92AA77C9600F87259 /* FMDatabaseAdditions.m */,
+				076A49BD2AA77C9600F87259 /* FMDatabasePool.h */,
+				076A49BB2AA77C9600F87259 /* FMDatabasePool.m */,
+				076A49B52AA77C9600F87259 /* FMDatabaseQueue.h */,
+				076A49B72AA77C9600F87259 /* FMDatabaseQueue.m */,
+				076A49BE2AA77C9600F87259 /* FMDB.h */,
+				076A49B62AA77C9600F87259 /* FMResultSet.h */,
+				076A49B42AA77C9500F87259 /* FMResultSet.m */,
+				076A49B32AA77C9500F87259 /* sqLite uygulama-Bridging-Header.h */,
+				076A49C82AA7C1B200F87259 /* Personsdao.swift */,
+			);
+			path = "sqLite uygulama";
+			sourceTree = "<group>";
+		};
+		076A49972AA7454B00F87259 /* sqLite uygulamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				076A49982AA7454B00F87259 /* sqLite_uygulamaTests.swift */,
+			);
+			path = "sqLite uygulamaTests";
+			sourceTree = "<group>";
+		};
+		076A49A12AA7454B00F87259 /* sqLite uygulamaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				076A49A22AA7454B00F87259 /* sqLite_uygulamaUITests.swift */,
+				076A49A42AA7454B00F87259 /* sqLite_uygulamaUITestsLaunchTests.swift */,
+			);
+			path = "sqLite uygulamaUITests";
+			sourceTree = "<group>";
+		};
+		076A49B12AA77AE600F87259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				076A49B22AA77AE600F87259 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		076A497A2AA7454500F87259 /* sqLite uygulama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076A49A82AA7454B00F87259 /* Build configuration list for PBXNativeTarget "sqLite uygulama" */;
+			buildPhases = (
+				076A49772AA7454500F87259 /* Sources */,
+				076A49782AA7454500F87259 /* Frameworks */,
+				076A49792AA7454500F87259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sqLite uygulama";
+			productName = "sqLite uygulama";
+			productReference = 076A497B2AA7454500F87259 /* sqLite uygulama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		076A49932AA7454B00F87259 /* sqLite uygulamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076A49AB2AA7454B00F87259 /* Build configuration list for PBXNativeTarget "sqLite uygulamaTests" */;
+			buildPhases = (
+				076A49902AA7454B00F87259 /* Sources */,
+				076A49912AA7454B00F87259 /* Frameworks */,
+				076A49922AA7454B00F87259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				076A49962AA7454B00F87259 /* PBXTargetDependency */,
+			);
+			name = "sqLite uygulamaTests";
+			productName = "sqLite uygulamaTests";
+			productReference = 076A49942AA7454B00F87259 /* sqLite uygulamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		076A499D2AA7454B00F87259 /* sqLite uygulamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076A49AE2AA7454B00F87259 /* Build configuration list for PBXNativeTarget "sqLite uygulamaUITests" */;
+			buildPhases = (
+				076A499A2AA7454B00F87259 /* Sources */,
+				076A499B2AA7454B00F87259 /* Frameworks */,
+				076A499C2AA7454B00F87259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				076A49A02AA7454B00F87259 /* PBXTargetDependency */,
+			);
+			name = "sqLite uygulamaUITests";
+			productName = "sqLite uygulamaUITests";
+			productReference = 076A499E2AA7454B00F87259 /* sqLite uygulamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		076A49732AA7454500F87259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					076A497A2AA7454500F87259 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+					076A49932AA7454B00F87259 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 076A497A2AA7454500F87259;
+					};
+					076A499D2AA7454B00F87259 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 076A497A2AA7454500F87259;
+					};
+				};
+			};
+			buildConfigurationList = 076A49762AA7454500F87259 /* Build configuration list for PBXProject "sqLite uygulama" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 076A49722AA7454500F87259;
+			productRefGroup = 076A497C2AA7454500F87259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				076A497A2AA7454500F87259 /* sqLite uygulama */,
+				076A49932AA7454B00F87259 /* sqLite uygulamaTests */,
+				076A499D2AA7454B00F87259 /* sqLite uygulamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		076A49792AA7454500F87259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076A49C52AA7814500F87259 /* persons.sqlite in Resources */,
+				076A498E2AA7454A00F87259 /* LaunchScreen.storyboard in Resources */,
+				076A498B2AA7454A00F87259 /* Assets.xcassets in Resources */,
+				076A49862AA7454500F87259 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076A49922AA7454B00F87259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076A499C2AA7454B00F87259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		076A49772AA7454500F87259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076A49832AA7454500F87259 /* ViewController.swift in Sources */,
+				076A497F2AA7454500F87259 /* AppDelegate.swift in Sources */,
+				076A49892AA7454500F87259 /* sqLite_uygulama.xcdatamodeld in Sources */,
+				076A49812AA7454500F87259 /* SceneDelegate.swift in Sources */,
+				076A49C92AA7C1B200F87259 /* Personsdao.swift in Sources */,
+				076A49C32AA77C9600F87259 /* FMDatabasePool.m in Sources */,
+				076A49C72AA7C08B00F87259 /* persons.swift in Sources */,
+				076A49BF2AA77C9600F87259 /* FMResultSet.m in Sources */,
+				076A49C12AA77C9600F87259 /* FMDatabaseAdditions.m in Sources */,
+				076A49C02AA77C9600F87259 /* FMDatabaseQueue.m in Sources */,
+				076A49C22AA77C9600F87259 /* FMDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076A49902AA7454B00F87259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076A49992AA7454B00F87259 /* sqLite_uygulamaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076A499A2AA7454B00F87259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076A49A32AA7454B00F87259 /* sqLite_uygulamaUITests.swift in Sources */,
+				076A49A52AA7454B00F87259 /* sqLite_uygulamaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		076A49962AA7454B00F87259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 076A497A2AA7454500F87259 /* sqLite uygulama */;
+			targetProxy = 076A49952AA7454B00F87259 /* PBXContainerItemProxy */;
+		};
+		076A49A02AA7454B00F87259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 076A497A2AA7454500F87259 /* sqLite uygulama */;
+			targetProxy = 076A499F2AA7454B00F87259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		076A49842AA7454500F87259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076A49852AA7454500F87259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		076A498C2AA7454A00F87259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076A498D2AA7454A00F87259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		076A49A62AA7454B00F87259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		076A49A72AA7454B00F87259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		076A49A92AA7454B00F87259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29A9N8YV49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sqLite uygulama/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SY.sqLite-uygulama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "sqLite uygulama/sqLite uygulama-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		076A49AA2AA7454B00F87259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29A9N8YV49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sqLite uygulama/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SY.sqLite-uygulama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "sqLite uygulama/sqLite uygulama-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		076A49AC2AA7454B00F87259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29A9N8YV49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SY.sqLite-uygulamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqLite uygulama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sqLite uygulama";
+			};
+			name = Debug;
+		};
+		076A49AD2AA7454B00F87259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29A9N8YV49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SY.sqLite-uygulamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqLite uygulama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sqLite uygulama";
+			};
+			name = Release;
+		};
+		076A49AF2AA7454B00F87259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29A9N8YV49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SY.sqLite-uygulamaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sqLite uygulama";
+			};
+			name = Debug;
+		};
+		076A49B02AA7454B00F87259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29A9N8YV49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SY.sqLite-uygulamaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sqLite uygulama";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		076A49762AA7454500F87259 /* Build configuration list for PBXProject "sqLite uygulama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076A49A62AA7454B00F87259 /* Debug */,
+				076A49A72AA7454B00F87259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076A49A82AA7454B00F87259 /* Build configuration list for PBXNativeTarget "sqLite uygulama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076A49A92AA7454B00F87259 /* Debug */,
+				076A49AA2AA7454B00F87259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076A49AB2AA7454B00F87259 /* Build configuration list for PBXNativeTarget "sqLite uygulamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076A49AC2AA7454B00F87259 /* Debug */,
+				076A49AD2AA7454B00F87259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076A49AE2AA7454B00F87259 /* Build configuration list for PBXNativeTarget "sqLite uygulamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076A49AF2AA7454B00F87259 /* Debug */,
+				076A49B02AA7454B00F87259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		076A49872AA7454500F87259 /* sqLite_uygulama.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				076A49882AA7454500F87259 /* sqLite_uygulama.xcdatamodel */,
+			);
+			currentVersion = 076A49882AA7454500F87259 /* sqLite_uygulama.xcdatamodel */;
+			path = sqLite_uygulama.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 076A49732AA7454500F87259 /* Project object */;
+}

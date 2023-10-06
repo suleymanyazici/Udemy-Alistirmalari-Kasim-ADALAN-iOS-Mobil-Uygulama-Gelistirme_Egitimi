@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ToolBar_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aks-hT-tJJ">
+                                <rect key="frame" x="0.0" y="769" width="393" height="49"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="Sbi-Gm-Moj">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="geriButton:" destination="BYZ-38-t0r" id="g0e-dh-Ki9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="ajb-2C-ajT"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="fNc-NB-aKJ"/>
+                                    <barButtonItem width="30" style="plain" systemItem="fixedSpace" id="gcp-jC-5ob"/>
+                                    <barButtonItem title="Oynat" id="6p8-g9-Zrb">
+                                        <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="oynatButton:" destination="BYZ-38-t0r" id="0FP-pX-k4J"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="4yV-WJ-vTN"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="1Mc-CQ-6Mf"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="Pc6-cV-QSE"/>
+                                    <barButtonItem title="Home" image="homekit" catalog="system" id="bRI-NG-41f">
+                                        <color key="tintColor" systemColor="systemBrownColor"/>
+                                        <connections>
+                                            <action selector="homeButton:" destination="BYZ-38-t0r" id="Iy7-5G-gQ5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oynat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuG-Um-FMd">
+                                <rect key="frame" x="69" y="189" width="255" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yuG-Um-FMd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="03u-dJ-BAq"/>
+                            <constraint firstItem="yuG-Um-FMd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CPm-Lg-AY6"/>
+                            <constraint firstItem="aks-hT-tJJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PSR-db-KFI"/>
+                            <constraint firstItem="aks-hT-tJJ" firstAttribute="centerX" secondItem="yuG-Um-FMd" secondAttribute="centerX" id="Pfe-HZ-J8o"/>
+                            <constraint firstItem="aks-hT-tJJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bDv-J2-kft"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="etiket" destination="yuG-Um-FMd" id="Vlo-xh-FbT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="homekit" catalog="system" width="128" height="104"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
